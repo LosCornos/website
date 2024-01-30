@@ -228,10 +228,52 @@
         width: 420px;
     }
 }
+@media screen and (max-width: 490px) {
+    .page_title_bg > .h1n {
+        font-size: 2em;
+    }
+    main > .fcbg_full {
+        padding: 60px 0px 30px 0px;
+    }
+    #imgg {
+        width: 100%;
+    }
+    h3.ht3xt {
+        font-size: 1.2em;
+    }
+    aside.data {
+        font-size: 0.8em;
+    }
+    #img01 {
+        content: url(media-page/img01.1.png);
+    }
+    #img02 {
+        content: url(media-page/img02.1.png);
+    }
+    #img03 {
+        content: url(media-page/img03.1.png);
+    }
+    .content_bg > .history_bg > p.ht3xt {
+        font-size: 1.1em;
+    }
+}
+@media screen and (max-width: 390px) {
+    .page_title_bg > .h1n {
+        font-size: 1.4em;
+    }
+    .title_box > h1 {
+        font-size: 2em;
+    }
+    .content_bg .title_box {
+        margin-bottom: 20px;
+    }
+    .content_bg > .history_bg > p.ht3xt {
+        font-size: 1em;
+    }
+}
 
 
-
-                    /* DECORATION TAGS */
+/* ================================ DECORATION TAGS */
 .ECMcolor {
     color: #e4b400;
 }

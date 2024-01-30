@@ -206,13 +206,22 @@
     #maintt {
         font-size: 2.5em;
     }
+    .content_text > p {
+        padding: 0;
+    }
+    .header_background > .main_icon_background {
+        width: 400px;
+    }
+    
 }
 @media screen and (max-width: 390px) {
     #maintt {
         font-size: 2.2em;
     }
-    .content_text > p {
-        padding: 0;
+}
+@media (max-width: 490px) {
+    .full_page > .main_img_background {
+        background-image: url('midia/main-img/main-img-2.png');
     }
 }
 /* DECORATION TAGS */

@@ -402,6 +402,37 @@ aside {
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
 }
+@media screen and (max-width: 490px) {
+    .page_title_bg > .h1n {
+        font-size: 1.5em;
+    }
+    main > .fcbg_full {
+        padding: 60px 0px 30px 0px;
+    }
+    #imgg {
+        width: 100%;
+    }
+    h3.ht3xt {
+        font-size: 1.2em;
+    }
+    aside.data {
+        font-size: 0.8em;
+    }
+    .members_list_bg > h3 {
+        font-size: 1.1em;
+    }
+    .members_list_bg > ul > li {
+        font-size: 1em;
+    }
+    .members_list_bg > h4 {
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 390px) {
+    .page_title_bg > .h1n {
+        font-size: 1.4em;
+    }
+}
 
 /* ======================= F O O T E R =================== */
 

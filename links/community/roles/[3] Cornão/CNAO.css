@@ -195,11 +195,32 @@
         width: calc(100%);
     }
 }
+@media screen and (max-width: 490px) {
+    .page_title_bg > .h1n {
+        font-size: 1.5em;
+    }
+    main > .fcbg_full {
+        padding: 60px 0px 30px 0px;
+    }
+    #imgg {
+        width: 100%;
+    }
+    h3.ht3xt {
+        font-size: 1.2em;
+    }
+    aside.data {
+        font-size: 0.8em;
+    }
+}
+@media screen and (max-width: 390px) {
+    .page_title_bg > .h1n {
+        font-size: 1.4em;
+    }
+}
 
 
 
-
-                    /* DECORATION TAGS */
+/* ======================================== DECORATION TAGS */
 .CNAOcolor {
     color: #ff4ea4  ;
 }
