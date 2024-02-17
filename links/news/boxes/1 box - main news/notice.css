@@ -248,8 +248,38 @@
     .content_bg > aside {
         font-size: 1em;
     }
-    abbr > img {
-        content: url(media-page/little-img.png);
+    #pht1 > abbr > img {
+        content: url(media-page/img01.2s.png);
+    }
+    #pht2 > abbr > img {
+        content: url(media-page/img02s.png);
+    }
+    #pht3 > abbr > img {
+        content: url(media-page/img03s.png);
+    }
+    #pht4 > abbr > img {
+        content: url(media-page/img04s.png);
+    }
+    #pht5 > abbr > img {
+        content: url(media-page/img05s.png);
+    }
+    #pht6 > abbr > img {
+        content: url(media-page/img06s.png);
+    }
+    #pht7 > abbr > img {
+        content: url(media-page/img07s.png);
+    }
+    #pht8 > abbr > img {
+        content: url(media-page/img08s.png);
+    }
+    #pht9 > abbr > img {
+        content: url(media-page/img09s.png);
+    }
+    #pht10 > abbr > img {
+        content: url(media-page/img10s.png);
+    }
+    #pht11 > abbr > img {
+        content: url(media-page/img11s.png);
     }
     .content_bg > div.other {
         width: 100%;
@@ -567,6 +597,16 @@ footer {
     background-color: #ffffffaf;
     border: none;
     height: 1px;
+}
+.hl2 {
+    width: 100%;
+}
+.hl2 hr {
+    background-color: #202020;
+    border: none;
+    height: 1px;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 .rights_bg_full {
     width: 100vw;
